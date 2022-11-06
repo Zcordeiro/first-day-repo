@@ -1,0 +1,86 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: auto;
+    width: fit-content auto; 
+    background-color: #b1f5d2;
+    background-image: linear-gradient(62deg, #b1f5d2 0%, #fff8d9 100%);
+
+}
+
+header {
+    background-color: #85FFBD;
+    background-image: linear-gradient(185deg, #85FFBD 16%, #FFFB7D 30%);
+    border: 1px solid black;
+    top: 0;
+}
+
+/* The Gradient color combination used in the header and in the nav bar items was made using https://www.grabient.com */
+
+
+
+nav {
+    width: 100%; 
+    text-align: right;
+    position: fixed;
+    top: 0px;
+    color: black;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+#lightningImage {
+    height: 60px;
+    width: 60px;
+    text-align: right;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+li {
+    display: inline;
+    padding: 5px 10px;
+    margin: 20px;
+    font-size: 25px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.mainContentBox {
+    padding-top: 30px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.simpsonsImages {
+    border: 10px solid darkgreen;
+    border-radius: 20%;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+
+.visitorForm {
+    padding: 10px;
+    text-align: center;
+    background-color: #85FFBD;
+}
+
+footer {
+    text-align: center;
+    background-color: #FFFB7D;
+}
